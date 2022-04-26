@@ -1,0 +1,17 @@
+.intro-container{
+    width: 100vw;
+    height: auto;
+    padding: 122px 0;
+   
+}
+
+.text-intro-container h1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 4rem;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+    word-break: break-word;
+    font-weight: 900;
+    margin-right: -15px;
+    margin-left: -15px;
+}
