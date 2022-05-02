@@ -6,6 +6,7 @@ import Floater from './Floater.jsx'
 import SquareContainer from './SquareContainer.jsx'
 import GrayContainer from './GrayContainer.jsx'
 import ProductosDestacados from './ProductosDestacados.jsx'
+import Necesitas from './Necesitas.jsx'
 
 const App = () => (
 
@@ -16,6 +17,7 @@ const App = () => (
     <SquareContainer />
     <GrayContainer />
     <ProductosDestacados />
+    <Necesitas />
   </div>
 
 )

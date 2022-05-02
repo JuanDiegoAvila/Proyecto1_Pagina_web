@@ -55,8 +55,7 @@ p {
 }
 
 .productos-destacados-titulo{
-  align-self: flex-start;
-  margin-left: 160px;
+  width: 1230px;
   font-size: 2.5rem;
   line-height: 3rem;
   font-family: 'Inter';
@@ -119,7 +118,7 @@ p {
 .producto-destacado-links {
   color: rgb(33, 150, 243);
   font-weight: 500;
-  margin-right: 30px;
+  margin-right: 25px;
   width: fit-content;
 }
 
@@ -139,4 +138,5 @@ p {
 .producto-destacado-links-container {
   display: flex;
   flex-direction: row;
+  margin-bottom: -10px;
 }

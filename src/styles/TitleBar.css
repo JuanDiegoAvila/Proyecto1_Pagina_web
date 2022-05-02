@@ -113,6 +113,7 @@
 
 .comencemos:hover{
     color: #ffff;
+    cursor: pointer;
 }
 
 .other{

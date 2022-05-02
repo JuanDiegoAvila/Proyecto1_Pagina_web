@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+.necesitas-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 0;
+  padding-top: 30px;
+}
+
+.necesitas-intro-container{
+  width: 1230px;
+}
+
+.necesitas-button{
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: #2196f3;
+  border: 0px;
+  color: #ffff;
+
+  width: 167.85px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 14px;
+  letter-spacing: 0.1px;
+  cursor:pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 96px;
+  margin-top: -3px;
+}
+
+.necesitas-h1-titulo {
+  width: 600px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: 'Inter';
+  font-weight: 700;
+}
+
+.necesitas-h1-contenido {
+  width: 809.99px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter';
+  line-height: 32px;
+  margin-top: -3px;
+  margin-bottom: 20px;
+}
+
+.mas-informacion:hover{
+  color: #ffff;
+}
+
+.necesitas-square {
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  padding-left: 15px;
+  justify-content: space-between;
+}
+
+.necesitas-container-h1-p{
+  width: 285px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.necesitas-square-p {
+  margin-top: -13px;    
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 400;
+  font-family: 'Inter';
+}
+
+.necesitas-squares-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.necesitas-link {
+  color: rgb(33, 150, 243);
+  font-weight: 500;
+  width: fit-content;
+  margin-top: -02px;
+}
+
+.necesitas-link-container p:hover{
+  cursor: pointer;
+
+}

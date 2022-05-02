@@ -21,8 +21,8 @@ const ProductosDestacados = () => (
             </p>
           </div>
           <div className="producto-destacado-links-container">
-            <p className="producto-destacado-links">Suscribete</p>
-            <p className="producto-destacado-links">Mas información</p>
+            <p className="producto-destacado-links">Suscríbete</p>
+            <p className="producto-destacado-links">Más información</p>
           </div>
         </div>
       </div>
