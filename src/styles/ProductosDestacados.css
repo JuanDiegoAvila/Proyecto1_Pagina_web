@@ -1,0 +1,142 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+h1 {
+  font-family: 'inter';
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+p {
+  font-family: 'inter';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.productos-destacados-titulo{
+  align-self: flex-start;
+  margin-left: 160px;
+  font-size: 2.5rem;
+  line-height: 3rem;
+  font-family: 'Inter';
+  font-weight: 700;
+  padding-bottom: 50px;
+}
+
+.producto-destacado-imagen {
+  background-repeat: no-repeat;
+  width: 600px;
+  height: 338.11;
+  padding: 0px;
+  margin: 0px;
+  background-position: 100% 100%;
+  background-size: contain;
+  margin-top: -25px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+
+.productos-destacados-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 0;
+  padding-top: 35px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.productos-destacados-a-container{
+  display: flex;
+  height: 610px;
+  width: 1260px;
+}
+
+.producto-destacado{
+  margin-right: 15px;
+  margin-left: 15px;
+  box-shadow: 0 5px 10px 0 rgb(0 0 0 / 10%);
+  border-radius: 6px;
+  width: 630px;
+  height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.producto-destacado-text {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 30px 15px;
+  justify-content: space-between;
+}
+
+.producto-destacado-links {
+  color: rgb(33, 150, 243);
+  font-weight: 500;
+  margin-right: 30px;
+  width: fit-content;
+}
+
+.producto-destacado-content {
+  margin-top: -11px;
+  width: 536px;
+}
+
+.producto-destacado-links-container p:hover {
+  cursor: pointer;
+}
+
+.producto-destacado-h1-p {
+  height: 180px;
+}
+
+.producto-destacado-links-container {
+  display: flex;
+  flex-direction: row;
+}

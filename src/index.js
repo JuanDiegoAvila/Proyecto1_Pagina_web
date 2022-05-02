@@ -1,20 +1,24 @@
-import {createRoot} from 'react-dom/client'
-import * as ReactDOM from 'react-dom';
-
-import TitleBar from './TitleBar.jsx';
-import IntroContainer from './IntroContainer.jsx';
-
+import { createRoot } from 'react-dom/client'
 import React from 'react'
+import TitleBar from './TitleBar.jsx'
+import IntroContainer from './IntroContainer.jsx'
+import Floater from './Floater.jsx'
+import SquareContainer from './SquareContainer.jsx'
+import GrayContainer from './GrayContainer.jsx'
+import ProductosDestacados from './ProductosDestacados.jsx'
 
-const App = () => {
-    return(
-        <div>
-            <TitleBar></TitleBar>
-            <IntroContainer></IntroContainer>
-        </div>
-    )
-}
+const App = () => (
 
-const container = document.getElementById('app');
+  <div style={{ overflowY: 'scroll', height: '100vh', overflowX: 'hidden' }}>
+    <Floater />
+    <TitleBar />
+    <IntroContainer />
+    <SquareContainer />
+    <GrayContainer />
+    <ProductosDestacados />
+  </div>
+
+)
+const container = document.getElementById('app')
 const root = createRoot(container)
 root.render(<App tab="home" />)
