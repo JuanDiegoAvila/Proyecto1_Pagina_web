@@ -6,6 +6,7 @@ import SquareContainer from './SquareContainer.jsx'
 import GrayContainer from './GrayContainer.jsx'
 import ProductosDestacados from './ProductosDestacados.jsx'
 import Necesitas from './Necesitas.jsx'
+import LoUltimo from './LoUltimo.jsx'
 
 const App = () => (
 
@@ -17,6 +18,7 @@ const App = () => (
     <GrayContainer />
     <ProductosDestacados />
     <Necesitas />
+    <LoUltimo />
   </div>
 
 )
