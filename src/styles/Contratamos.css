@@ -1,3 +1,46 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
 .contratamos-container{
   display: flex;
   justify-content: center;
@@ -9,5 +52,62 @@
 }
 
 .contratamos-text{
-  margin-right: 120px;
+  margin-right: 100px;
+  width: 525px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contratamos-text h1{
+  font-family: 'Inter';
+  font-size: 40px;
+  line-height: 48px;
+  width: 495px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.contratamos-text p{
+  width: 495px;
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 32px;
+  margin-top: -9px;
+}
+
+.contratamos-imagenes{
+  width: 600px;
+  margin-right: 15px;
+  margin-left: 15px;
+  height:  337px;
+  background-size: contain;
+  border-radius: 6px;
+}
+
+.cotratamos-button-container {
+  width: 495px;
+  margin-top: 14px;
+}
+
+.contratamos-button{
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: #2196f3;
+  border: 0px;
+  color: #ffff;
+
+  width: 132px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 14px;
+  align-self: center;
+  letter-spacing: 0.1px;
+  cursor:pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 132px;
 }
