@@ -1,0 +1,214 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+.made-with-unity-container {
+  width: 100vw;
+  margin-right: 0;
+  height: 886px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 56px;
+}
+
+.made-with-unity-titulo{
+  width: 1230px;
+  height: 48px;
+  max-height: 48px;
+  font-size: 44px;
+  line-height: 52px;
+  font-family: 'Inter';
+  font-weight: 700;
+  color: white;
+  margin-top: -32px;
+}
+
+.made-with-unity-contenido {
+  width: 600px;
+  height: 64px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Inter';
+  line-height: 32px;
+  margin-top: -11px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.made-with-unity-contenido-p {
+  opacity: 0;
+  font-size: 16px;
+  line-height: 24px;
+  width: 231px;
+  font-weight: 400;
+}
+
+.made-with-unity-intro-container{
+  width: 1230px;
+}
+
+.made-with-unity-button {
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: #2196f3;
+  border: 0px;
+  color: #ffff;
+
+  width: 135px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 14px;
+  align-self: center;
+  letter-spacing: 0.1px;
+  cursor:pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 135px;
+}
+
+.made-with-unity-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 100px;
+  width: 1260px;
+  height: 295px;
+  margin-right: 15px;
+  margin-left: 15px; 
+}
+
+.made-with-unity-box-transparent {
+  border: 3px solid #fff;
+  border-radius: 6px;
+  width: 285px;
+  height: 284px;
+  margin-left: 18px;
+  margin-right: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: white;
+
+  transition: background-color 0.1s ease-in;
+}
+
+
+.made-with-unity-box-transparent:hover{
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.mas-informacion-made-with-unity {
+  color: rgb(33, 150, 243);
+  font-weight: 500;
+  font-size: 16px;
+  height: 24px;
+  margin: 0px;
+}
+
+.made-with-unity-box-transparent:hover .made-with-unity-contenido-p{
+  opacity: 1;
+  color: black;
+}
+
+.made-with-unity-box-transparent:hover .made-with-unity-link-container{
+  opacity: 1;
+}
+
+.made-with-unity-subtitulos {
+  margin-top: -15px;
+  font-family: 'Inter';
+  font-size: 14px;
+  line-height: 20px;
+  width: 231px;
+  font-weight: 400;
+}
+
+.made-with-unity-box-transparent h1{
+  margin-top: 27px;
+  width: 231px;
+}
+
+.made-with-unity-box-white {
+  border-radius: 4px;
+  background-color: white;
+  width: 285px;
+  height: 284px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.made-with-unity-box-white h1{
+  width: 231px;
+}
+
+.made-with-unity-box-white:hover{
+  cursor: pointer;
+}
+
+.made-with-unity-link-container {
+  opacity: 0;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  margin-top: -41px;
+}
+
+.made-with-unity-box-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: -20px;
+}
+
+.made-with-unity-box-h1-p {
+  margin: 0px;
+  height: 233px;
+}

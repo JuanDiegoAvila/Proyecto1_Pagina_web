@@ -7,6 +7,8 @@ import GrayContainer from './GrayContainer.jsx'
 import ProductosDestacados from './ProductosDestacados.jsx'
 import Necesitas from './Necesitas.jsx'
 import LoUltimo from './LoUltimo.jsx'
+import MadeWithUnity from './MadeWithUnity.jsx'
+import Contratamos from './Contratamos.jsx'
 
 const App = () => (
 
@@ -19,6 +21,8 @@ const App = () => (
     <ProductosDestacados />
     <Necesitas />
     <LoUltimo />
+    <MadeWithUnity />
+    <Contratamos />
   </div>
 
 )

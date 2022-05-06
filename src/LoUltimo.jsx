@@ -19,23 +19,29 @@ const LoUltimo = () => (
     <h1 className="lo-ultimo-titulo">Lo último de Unity</h1>
     <div className="lo-ultimo-image-container">
       <div className="lo-ultimo-big-image" style={{ backgroundImage: `url(${Container31})` }}>
-        <h1>¡Bienvenido, Weta Digital!</h1>
-        <p>Herramientas VFX altamente sofisticadas para millones de creadores en todo el mundo</p>
+        <div className="big-image-text">
+          <h1>¡Bienvenido, Weta Digital!</h1>
+          <p>Herramientas VFX altamente sofisticadas para millones de creadores en todo el mundo</p>
+        </div>
       </div>
       <div className="lo-ultimo-small-container">
         <div className="lo-ultimo-small-image" style={{ backgroundImage: `url(${Container32})` }}>
-          <h1>Para todos los suscriptores de Unity Pro y Enterprise</h1>
-          <p>
-            Accede al nuevo Centro del éxito de Unity para obtener consejos útiles
-            y prácticas recomendadas.
-          </p>
+          <div className="small-image-text">
+            <h1>Para todos los suscriptores de Unity Pro y Enterprise</h1>
+            <p>
+              Accede al nuevo Centro del éxito de Unity para obtener consejos útiles
+              y prácticas recomendadas.
+            </p>
+          </div>
         </div>
         <div className="lo-ultimo-small-image" style={{ backgroundImage: `url(${Container33})` }}>
-          <h1>Más impulso</h1>
-          <p>
-            Obtén más impulso en tu próximo
-            proyecto con el conjunto completo de herramientas DevOps de Unity.
-          </p>
+          <div className="small-image-text">
+            <h1>Más impulso</h1>
+            <p>
+              Obtén más impulso en tu próximo
+              proyecto con el conjunto completo de herramientas DevOps de Unity.
+            </p>
+          </div>
         </div>
       </div>
     </div>

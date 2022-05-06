@@ -10,9 +10,9 @@ const SquareNI = ({ title, content }) => (
         <h1>{title}</h1>
         <p className="mas-content-square">{content}</p>
       </div>
-      <p className="mas-informacion-link-container">
+      <div className="mas-informacion-link-container">
         <p className="mas-informacion-square">Más información</p>
-      </p>
+      </div>
     </div>
   </div>
 

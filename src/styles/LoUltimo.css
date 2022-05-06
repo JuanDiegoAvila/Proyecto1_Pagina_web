@@ -74,11 +74,43 @@
   width: 389px;
   height: 213px;
   border-radius: 6px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  position: relative;
+
+  transition: background-size 0.7s ease-in-out;
+}
+
+.lo-ultimo-small-image::before{
+  content: '';
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  border-radius: 6px;
+  left: 0;
+  width: 389px;
+  height: 213px;
+
+  transition: opacity 0.7s ease-in-out;
+}
+
+.lo-ultimo-small-image:hover::before{
+  opacity: 0.75;
+}
+
+.lo-ultimo-small-image:hover{
+  cursor: pointer;
+  background-size: 115%; 
+}
+
+.small-image-text {
+  position: relative;
+  z-index: 3;
+  content: '';
 }
 
 .lo-ultimo-small-image h1{
@@ -120,15 +152,43 @@
   padding-left: 15px;
   height: 456px;
   border-radius: 6px;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   margin-right: 30px;
+  position: relative;
+  
+  transition: background-size 0.7s ease-in-out;
+}
+
+.lo-ultimo-big-image::before{
+  content: '';
+  background-color: black;
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  border-radius: 6px;
+  left: 0;
+  width: 810px;
+  height: 456px;
+  transition: opacity 0.7s ease-in-out;
+  
+}
+
+.lo-ultimo-big-image:hover::before{
+  opacity: 0.75;
 }
 
 .lo-ultimo-big-image:hover{
   cursor: pointer;
+  background-size: 115%; 
+}
+
+.big-image-text {
+  position: relative;
+  z-index: 3;
+  content: '';
 }
 
 .lo-ultimo-small-image:hover{
