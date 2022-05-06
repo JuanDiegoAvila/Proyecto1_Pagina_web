@@ -84,6 +84,7 @@
   height:  337px;
   background-size: contain;
   border-radius: 6px;
+  background-repeat: no-repeat;
 }
 
 .cotratamos-button-container {
