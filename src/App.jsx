@@ -9,6 +9,9 @@ import Necesitas from './Necesitas.jsx'
 import LoUltimo from './LoUltimo.jsx'
 import MadeWithUnity from './MadeWithUnity.jsx'
 import Contratamos from './Contratamos.jsx'
+import Logos from './Logos.jsx'
+import Contactanos from './Contactanos.jsx'
+import Footer from './Footer.jsx'
 
 const App = () => (
 
@@ -23,6 +26,9 @@ const App = () => (
     <LoUltimo />
     <MadeWithUnity />
     <Contratamos />
+    <Logos />
+    <Contactanos />
+    <Footer />
   </div>
 
 )

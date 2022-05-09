@@ -1,0 +1,119 @@
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Black.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Bold.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/Inter-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Inter';
+  font-style:  normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("/public/fonts/Inter-SemiBold.woff2") format("woff2");
+}
+
+.contactanos-container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 730px;
+  margin-top: 80px;
+  padding-top: 56px;
+}
+
+.contactanos-image-contanier {
+  width: 1230px;
+  height: 498px;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 6px;
+  background-size: 100% 120%;
+  background-position: center;
+  min-height: 498px;
+  max-height: 498px;
+  max-width: 1230px;
+
+  position: relative;
+  overflow: hidden;
+  color: #fff;
+}
+
+.contactanos-title {
+  font-family: 'Inter';
+  font-size: 40px;
+  line-height: 48px;
+  width: 809px;
+  height: 96px;
+  margin-left: 105px;
+  color: white;
+  font-weight: 700;
+  margin-bottom: 0px;
+  margin-top: 120px;
+}
+
+.contactanos-content {
+  font-family: 'Inter';
+  font-size: 18px;
+  line-height: 32px;
+  width: 809px;
+  height: 64px;
+  margin-left: 105px;
+  color: white;
+  font-weight: 400;
+  margin-top: 18px;
+}
+
+.contactanos-button{
+  font-size: 16px;
+  font-family: 'Inter';
+  font-weight: 600;
+  background-color: #2196f3;
+  border: 0px;
+  color: #ffff;
+
+  width: 131px;
+  height: 48px;
+  border-radius: 4px;
+  padding: 12px 14px;
+  letter-spacing: 0.1px;
+  cursor:pointer;
+  vertical-align: middle;
+  white-space: nowrap;
+  text-align: center;
+  min-width: 131px;
+  min-height: 48px;
+  margin-left: 105px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
