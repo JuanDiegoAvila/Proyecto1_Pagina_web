@@ -195,7 +195,7 @@ var SquareNI_SquareNI = function SquareNI(_ref) {
     className: "square-h1-p-container"
   }, /*#__PURE__*/external_react_default().createElement("h1", null, title), /*#__PURE__*/external_react_default().createElement("p", {
     className: "mas-content-square"
-  }, content)), /*#__PURE__*/external_react_default().createElement("p", {
+  }, content)), /*#__PURE__*/external_react_default().createElement("div", {
     className: "mas-informacion-link-container"
   }, /*#__PURE__*/external_react_default().createElement("p", {
     className: "mas-informacion-square"
@@ -337,7 +337,7 @@ var ProductosDestacados_ProductosDestacados = function ProductosDestacados() {
 
 /* harmony default export */ const src_ProductosDestacados = (ProductosDestacados_ProductosDestacados);
 ;// CONCATENATED MODULE: ./src/styles/Necesitas.css
-/* harmony default export */ const Necesitas = (__webpack_require__.p + "e22fe6faf8455e6d44e0371cb9d810f8.css");
+/* harmony default export */ const Necesitas = (__webpack_require__.p + "1bdec2eddb978ddc9bc6bfa03e29d153.css");
 ;// CONCATENATED MODULE: ./src/Necesitas.jsx
 
 
@@ -378,7 +378,434 @@ var Necesitas_Necesitas = function Necesitas() {
 };
 
 /* harmony default export */ const src_Necesitas = (Necesitas_Necesitas);
+;// CONCATENATED MODULE: ./public/img/container-3-1.jpg
+/* harmony default export */ const container_3_1 = (__webpack_require__.p + "4949e69e2c42cc3f3322845d4bd275b1.jpg");
+;// CONCATENATED MODULE: ./public/img/container-3-2.jpg
+/* harmony default export */ const container_3_2 = (__webpack_require__.p + "fd416f8dc15a029819f3c810fc5b49aa.jpg");
+;// CONCATENATED MODULE: ./public/img/container-3-3.jpg
+/* harmony default export */ const container_3_3 = (__webpack_require__.p + "376e69f4c4e7e93394df867d8e64193e.jpg");
+;// CONCATENATED MODULE: ./public/img/container-3-4.jpg
+/* harmony default export */ const container_3_4 = (__webpack_require__.p + "7000895712819b37aa0cb622fe75aacf.jpg");
+;// CONCATENATED MODULE: ./public/img/container-3-5.jpg
+/* harmony default export */ const container_3_5 = (__webpack_require__.p + "947048431a09c2b934010afdd0f611ec.jpg");
+;// CONCATENATED MODULE: ./public/img/container-3-6.jpg
+/* harmony default export */ const container_3_6 = (__webpack_require__.p + "185aad99779451357b958c8d93260ca4.jpg");
+;// CONCATENATED MODULE: ./src/styles/LoUltimo.css
+/* harmony default export */ const LoUltimo = (__webpack_require__.p + "af72afb6c4e42fa9125764b58cf2bb26.css");
+;// CONCATENATED MODULE: ./src/LoUltimo.jsx
+
+
+
+
+
+
+
+
+var titulos = ['Recursos para enseñar Unity', 'Herramienta Bolt para scripting visual', 'Unity Computer Vision'];
+var contenido = ['Obtén recursos gratuitos y soporte para los docentes y las escuelas afectadas por el COVID-19.', 'Ahora está incluida en todos los planes de Unity sin costo adicional.', 'Obtén datos de alta calidad, perfectamente etiquetados para el entrenamiento utilizado en la visión computarizada a una fracción del costo.'];
+var LoUltimo_images = [container_3_4, container_3_5, container_3_6];
+
+var LoUltimo_LoUltimo = function LoUltimo() {
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", {
+    className: "lo-ultimo-titulo"
+  }, "Lo \xFAltimo de Unity"), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-image-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-big-image",
+    style: {
+      backgroundImage: "url(".concat(container_3_1, ")")
+    }
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "big-image-text"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "\xA1Bienvenido, Weta Digital!"), /*#__PURE__*/external_react_default().createElement("p", null, "Herramientas VFX altamente sofisticadas para millones de creadores en todo el mundo"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-small-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-small-image",
+    style: {
+      backgroundImage: "url(".concat(container_3_2, ")")
+    }
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "small-image-text"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Para todos los suscriptores de Unity Pro y Enterprise"), /*#__PURE__*/external_react_default().createElement("p", null, "Accede al nuevo Centro del \xE9xito de Unity para obtener consejos \xFAtiles y pr\xE1cticas recomendadas."))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-small-image",
+    style: {
+      backgroundImage: "url(".concat(container_3_3, ")")
+    }
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "small-image-text"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "M\xE1s impulso"), /*#__PURE__*/external_react_default().createElement("p", null, "Obt\xE9n m\xE1s impulso en tu pr\xF3ximo proyecto con el conjunto completo de herramientas DevOps de Unity."))))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lo-ultimo-text-container"
+  }, titulos.map(function (titulo, index) {
+    return /*#__PURE__*/external_react_default().createElement("div", {
+      className: "lo-ultimo-text",
+      key: index.id
+    }, /*#__PURE__*/external_react_default().createElement("div", {
+      className: "lo-ultimo-text-image",
+      style: {
+        backgroundImage: "url(".concat(LoUltimo_images[index], ")")
+      }
+    }), /*#__PURE__*/external_react_default().createElement("div", {
+      className: "lo-ultimo-text-h1-p"
+    }, /*#__PURE__*/external_react_default().createElement("h1", null, titulo), /*#__PURE__*/external_react_default().createElement("p", null, contenido[index])));
+  })));
+};
+
+/* harmony default export */ const src_LoUltimo = (LoUltimo_LoUltimo);
+;// CONCATENATED MODULE: external "@babel/runtime/helpers/slicedToArray"
+const slicedToArray_namespaceObject = require("@babel/runtime/helpers/slicedToArray");
+var slicedToArray_default = /*#__PURE__*/__webpack_require__.n(slicedToArray_namespaceObject);
+;// CONCATENATED MODULE: ./public/img/container-4.jpg
+/* harmony default export */ const container_4 = (__webpack_require__.p + "7b4dd73ee4c208b829a4df786f1b436d.jpg");
+;// CONCATENATED MODULE: ./public/img/container-4-2.jpg
+/* harmony default export */ const container_4_2 = (__webpack_require__.p + "b29ef4832245edd1af56b384aeb17f8b.jpg");
+;// CONCATENATED MODULE: ./public/img/container-4-3.jpg
+/* harmony default export */ const container_4_3 = (__webpack_require__.p + "a69858bd62c87e967fd2c0068768f6b3.jpg");
+;// CONCATENATED MODULE: ./src/styles/MadeWithUnity.css
+/* harmony default export */ const MadeWithUnity = (__webpack_require__.p + "64a0f2ae8b918b5829c0bdc23d415083.css");
+;// CONCATENATED MODULE: ./src/MadeWithUnity.jsx
+
+
+
+
+
+
+
+var MadeWithUnity_MadeWithUnity = function MadeWithUnity() {
+  var _useState = (0,external_react_namespaceObject.useState)(container_4),
+      _useState2 = slicedToArray_default()(_useState, 2),
+      image = _useState2[0],
+      setImagen = _useState2[1];
+
+  var classname = ['made-with-unity-box-transparent', 'made-with-unity-box-transparent', 'made-with-unity-box-transparent'];
+  var titulos = ['Praey for the Gods', 'Pharos AR', 'Cómo crear un auto configurable en Unity HDRP'];
+  var subTitulos = ['de No Matter Studios', 'de Childish Gambino, Wolf + Rothstein y MediaMonks', 'de Edward Martin'];
+  var contenido = ['Un gran videojuego de supervivencia invernal de un estudio pequeño y talentoso.', 'Entra al mundo místico de Childish Gambino en la primera experiencia musical de AR multiplataforma y multijugador del mundo.', 'Detalles únicos sobre el renderizado en tiempo real del sector automotor.'];
+
+  var handleHoverEnter = function handleHoverEnter(index) {
+    console.log(index);
+    setImagen([container_4, container_4_2, container_4_3][index]);
+  };
+
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "made-with-unity-container",
+    style: {
+      backgroundImage: "url(".concat(image, ")")
+    }
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "made-with-unity-intro-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", {
+    className: "made-with-unity-titulo"
+  }, "Made with Unity"), /*#__PURE__*/external_react_default().createElement("p", {
+    className: "made-with-unity-contenido"
+  }, "Descubre historias inspiradoras de los creadores que eligieron Unity para materializar sus proyectos."), /*#__PURE__*/external_react_default().createElement("button", {
+    type: "button",
+    className: "made-with-unity-button"
+  }, "M\xE1s historias")), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "made-with-unity-box-container"
+  }, titulos.map(function (title, index) {
+    return /*#__PURE__*/external_react_default().createElement("div", {
+      key: index.id,
+      className: classname[index],
+      onMouseEnter: function onMouseEnter() {
+        return handleHoverEnter(index);
+      }
+    }, /*#__PURE__*/external_react_default().createElement("div", {
+      className: "made-with-unity-box-text"
+    }, /*#__PURE__*/external_react_default().createElement("div", {
+      className: "made-with-unity-box-h1-p"
+    }, /*#__PURE__*/external_react_default().createElement("h1", null, title), /*#__PURE__*/external_react_default().createElement("p", {
+      className: "made-with-unity-subtitulos"
+    }, subTitulos[index]), /*#__PURE__*/external_react_default().createElement("p", {
+      className: "made-with-unity-contenido-p"
+    }, contenido[index])), /*#__PURE__*/external_react_default().createElement("div", {
+      className: "made-with-unity-link-container"
+    }, /*#__PURE__*/external_react_default().createElement("p", {
+      className: "mas-informacion-made-with-unity"
+    }, "M\xE1s informaci\xF3n"))));
+  })));
+};
+
+/* harmony default export */ const src_MadeWithUnity = (MadeWithUnity_MadeWithUnity);
+;// CONCATENATED MODULE: ./src/styles/Contratamos.css
+/* harmony default export */ const Contratamos = (__webpack_require__.p + "534d34d3ed0a9373b83a009ef214e5c5.css");
+;// CONCATENATED MODULE: ./public/img/container-5.jpg
+/* harmony default export */ const container_5 = (__webpack_require__.p + "9b97b11ef556151e33e5dd6efe763424.jpg");
+;// CONCATENATED MODULE: ./src/Contratamos.jsx
+
+
+
+
+var Contratamos_Contratamos = function Contratamos() {
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "contratamos-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "contratamos-text"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Juntos, fortalecemos la creatividad en tiempo real por todo el mundo"), /*#__PURE__*/external_react_default().createElement("p", null, "\xDAnete al equipo global detr\xE1s de la plataforma de desarrollo en tiempo real m\xE1s poderosa del mundo."), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "cotratamos-button-container"
+  }, /*#__PURE__*/external_react_default().createElement("button", {
+    type: "button",
+    className: "contratamos-button"
+  }, "Contratamos"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "contratamos-imagenes",
+    style: {
+      backgroundImage: "url(".concat(container_5, ")")
+    }
+  }));
+};
+
+/* harmony default export */ const src_Contratamos = (Contratamos_Contratamos);
+;// CONCATENATED MODULE: ./src/styles/Logos.css
+/* harmony default export */ const Logos = (__webpack_require__.p + "c5bfe1e5b745a7b69358f24098cea6cc.css");
+;// CONCATENATED MODULE: ./public/img/ICONS/android.png
+/* harmony default export */ const android = (__webpack_require__.p + "9548a460d052feb6db478504180bdf4c.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/androidtv.png
+/* harmony default export */ const androidtv = (__webpack_require__.p + "8e2c22c4b21ceb3122b18a070f27ecfc.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/ARCore.png
+/* harmony default export */ const ARCore = (__webpack_require__.p + "4c3f844e3ce056b8c267d6c2fa678782.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/holoLens.png
+/* harmony default export */ const holoLens = (__webpack_require__.p + "59f3d2a0fc62507f149dce862130fad0.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/iOS.png
+/* harmony default export */ const iOS = (__webpack_require__.p + "94e4cd5d856370e3fb91b651b1c1802e.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/linux.png
+/* harmony default export */ const linux = (__webpack_require__.p + "a8af116cd4007355dcf121a2ca44fbdd.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/magicLeap.png
+/* harmony default export */ const magicLeap = (__webpack_require__.p + "78e559b0097ee72f8b0c6da100914a7d.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/nintendo.png
+/* harmony default export */ const nintendo = (__webpack_require__.p + "9774460bfc693893bb0479701fc6f4fa.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/oculus.png
+/* harmony default export */ const oculus = (__webpack_require__.p + "0a70c30f11b51d9539040d50baec3ca6.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/plataforma.png
+/* harmony default export */ const plataforma = (__webpack_require__.p + "cf1faaf207d20fde2ef32c56680cdf5e.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/ps4.png
+/* harmony default export */ const ps4 = (__webpack_require__.p + "4efbda84c92547fd0227802391a40c8b.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/ps5.jpg
+/* harmony default export */ const ps5 = (__webpack_require__.p + "f85a253c40d397b586035386a359beb4.jpg");
+;// CONCATENATED MODULE: ./public/img/ICONS/stadia.png
+/* harmony default export */ const stadia = (__webpack_require__.p + "0b224f84b8a0243a0703f4417d88f8d5.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/tvOS.png
+/* harmony default export */ const tvOS = (__webpack_require__.p + "c1fc8ea4de870fe3759eee093faa93da.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/webgl.png
+/* harmony default export */ const webgl = (__webpack_require__.p + "aa18b91d7b812c1e8f70d401b5e6d931.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/windows.png
+/* harmony default export */ const windows = (__webpack_require__.p + "87aa07356de33c48681999b48e659a89.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/xbox.png
+/* harmony default export */ const xbox = (__webpack_require__.p + "d3d16dd327e68c68533437c5959c8237.png");
+;// CONCATENATED MODULE: ./public/img/ICONS/xs.png
+/* harmony default export */ const xs = (__webpack_require__.p + "e88cbd85aeebdff0bb9bda6ddcf1e047.png");
+;// CONCATENATED MODULE: ./src/Logos.jsx
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var Logos_Logos = function Logos() {
+  var LOGOS = [iOS, android, windows, plataforma, linux, webgl, ps4, ps5, xbox, xs, oculus, androidtv, tvOS, nintendo, ARCore, stadia, holoLens, magicLeap];
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "logos-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Ofrece posibilidades incre\xEDbles"), /*#__PURE__*/external_react_default().createElement("p", null, "Crea tu producto una sola vez e implem\xE9ntalo en m\xE1s de 25 plataformas y tecnolog\xEDas l\xEDderes del sector para llegar al mayor p\xFAblico posible."), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "logos-grid"
+  }, LOGOS.map(function (logo, index) {
+    return /*#__PURE__*/external_react_default().createElement("div", {
+      key: index.id,
+      className: "logo-individual",
+      style: {
+        backgroundImage: "url(".concat(logo, ")")
+      }
+    });
+  })));
+};
+
+/* harmony default export */ const src_Logos = (Logos_Logos);
+;// CONCATENATED MODULE: ./public/img/container-6.jpg
+/* harmony default export */ const container_6 = (__webpack_require__.p + "a31e9cc3820b470e71e1d71de41b020d.jpg");
+;// CONCATENATED MODULE: ./src/styles/Contactanos.css
+/* harmony default export */ const Contactanos = (__webpack_require__.p + "8959a41919944922bade440a45abec3b.css");
+;// CONCATENATED MODULE: ./src/Contactanos.jsx
+
+
+
+
+var Contactanos_Contactanos = function Contactanos() {
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "contactanos-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "contactanos-image-contanier",
+    style: {
+      backgroundImage: "url(".concat(container_6, ")")
+    }
+  }, /*#__PURE__*/external_react_default().createElement("h1", {
+    className: "contactanos-title"
+  }, "Soluciones para grandes equipos que quieren alcanzar grandes sue\xF1os"), /*#__PURE__*/external_react_default().createElement("p", {
+    className: "contactanos-content"
+  }, "Nuestras soluciones corporativas les proporcionan a grandes equipos y organizaciones en cada industria todo lo que necesitan para construir incre\xEDbles proyectos en 3D en tiempo real."), /*#__PURE__*/external_react_default().createElement("button", {
+    type: "button",
+    className: "contactanos-button"
+  }, "Cont\xE1ctanos")));
+};
+
+/* harmony default export */ const src_Contactanos = (Contactanos_Contactanos);
+;// CONCATENATED MODULE: ./src/styles/Footer.css
+/* harmony default export */ const Footer = (__webpack_require__.p + "ec843c93ee85ab1f7f00cf67a8d36f0d.css");
+;// CONCATENATED MODULE: ./public/img/facebook.svg
+/* harmony default export */ const facebook = (__webpack_require__.p + "70c0877d4c68eab138147940871f6f71.svg");
+;// CONCATENATED MODULE: ./public/img/instagram.svg
+/* harmony default export */ const instagram = (__webpack_require__.p + "5f9ad49ed88b0df33f09dd196d0cb1ca.svg");
+;// CONCATENATED MODULE: ./public/img/linkedin.svg
+/* harmony default export */ const linkedin = (__webpack_require__.p + "73a4a93d8b467e0ef9cb3876d1c3121b.svg");
+;// CONCATENATED MODULE: ./public/img/twitter.svg
+/* harmony default export */ const twitter = (__webpack_require__.p + "2045f8e06739560aa3581ea79baceb26.svg");
+;// CONCATENATED MODULE: ./public/img/youtube.svg
+/* harmony default export */ const youtube = (__webpack_require__.p + "2c52b9e5c4d2ea0b7d3f3071d8a27d16.svg");
+;// CONCATENATED MODULE: ./src/Footer.jsx
+
+
+
+
+
+
+
+
+var Footer_Footer = function Footer() {
+  return /*#__PURE__*/external_react_default().createElement("div", {
+    className: "footer-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "footer-info-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "idioma-redes-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "idioma-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Idioma"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "idiomas-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", null, "English"), /*#__PURE__*/external_react_default().createElement("li", null, "Deutsch"), /*#__PURE__*/external_react_default().createElement("li", null, "\u65E5\u672C\u8A9E"), /*#__PURE__*/external_react_default().createElement("li", null, "Fran\xE7ais"), /*#__PURE__*/external_react_default().createElement("li", null, "Portugu\xEAs"), /*#__PURE__*/external_react_default().createElement("li", null, "\u4E2D\u6587"), /*#__PURE__*/external_react_default().createElement("li", null, "Espa\xF1ol"), /*#__PURE__*/external_react_default().createElement("li", null, "\u0420\u0443\u0441\u0441\u043A\u0438\u0439"), /*#__PURE__*/external_react_default().createElement("li", null, "\uD55C\uAD6D\uC5B4"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "redes-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Redes sociales"), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "redes"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "red",
+    style: {
+      backgroundImage: "url(".concat(youtube, ")"),
+      width: '15px',
+      height: '19px'
+    }
+  }), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "red",
+    style: {
+      backgroundImage: "url(".concat(linkedin, ")"),
+      width: '18px',
+      height: '19px'
+    }
+  }), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "red",
+    style: {
+      backgroundImage: "url(".concat(twitter, ")"),
+      width: '18px',
+      height: '19px'
+    }
+  }), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "red",
+    style: {
+      backgroundImage: "url(".concat(facebook, ")"),
+      width: '9px',
+      height: '19px'
+    }
+  }), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "red",
+    style: {
+      backgroundImage: "url(".concat(instagram, ")"),
+      width: '18px',
+      height: '19px'
+    }
+  })))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "linea"
+  }, /*#__PURE__*/external_react_default().createElement("hr", null)), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "lists-container"
+  }, /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Comprar"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Productos"), /*#__PURE__*/external_react_default().createElement("li", null, "Unity Ads"), /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      color: 'black'
+    }
+  }, "o"), /*#__PURE__*/external_react_default().createElement("li", null, "Suscripci\xF3n"), /*#__PURE__*/external_react_default().createElement("li", null, "Asset Store"), /*#__PURE__*/external_react_default().createElement("li", null, "Revendedores"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Educaci\xF3n"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Estudiantes"), /*#__PURE__*/external_react_default().createElement("li", null, "Docentes"), /*#__PURE__*/external_react_default().createElement("li", null, "Certificaci\xF3n"), /*#__PURE__*/external_react_default().createElement("li", null, "Averiguar"), /*#__PURE__*/external_react_default().createElement("li", null, "Centro de excelencia"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Descargar"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Obtener Unity"), /*#__PURE__*/external_react_default().createElement("li", null, "Descargar archivo"), /*#__PURE__*/external_react_default().createElement("li", null, "Programa beta"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Unity Labs"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Labs"), /*#__PURE__*/external_react_default().createElement("li", null, "Publicaciones"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Recursos"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Plataforma Learn"), /*#__PURE__*/external_react_default().createElement("li", null, "Comunidad"), /*#__PURE__*/external_react_default().createElement("li", null, "Documentaci\xF3n"), /*#__PURE__*/external_react_default().createElement("li", null, "Preguntas y respuestas Unity"), /*#__PURE__*/external_react_default().createElement("li", null, "Preguntas frecuentes"), /*#__PURE__*/external_react_default().createElement("li", null, "Estado del servicio"), /*#__PURE__*/external_react_default().createElement("li", null, "Casos de estudio"), /*#__PURE__*/external_react_default().createElement("li", null, "Made with Unity"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "container-ul"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Unity"), /*#__PURE__*/external_react_default().createElement("ul", {
+    className: "lists-ul"
+  }, /*#__PURE__*/external_react_default().createElement("li", {
+    style: {
+      marginTop: '-21px'
+    }
+  }, "Nuestra empresa"), /*#__PURE__*/external_react_default().createElement("li", null, "Marca"), /*#__PURE__*/external_react_default().createElement("li", null, "Bolet\xEDn"), /*#__PURE__*/external_react_default().createElement("li", null, "Blog"), /*#__PURE__*/external_react_default().createElement("li", null, "Eventos"), /*#__PURE__*/external_react_default().createElement("li", null, "Carreras"), /*#__PURE__*/external_react_default().createElement("li", null, "Ayuda"), /*#__PURE__*/external_react_default().createElement("li", null, "Prensa"), /*#__PURE__*/external_react_default().createElement("li", null, "Socios"), /*#__PURE__*/external_react_default().createElement("li", null, "Inversionistas"), /*#__PURE__*/external_react_default().createElement("li", null, "Afiliados"), /*#__PURE__*/external_react_default().createElement("li", null, "Seguridad"), /*#__PURE__*/external_react_default().createElement("li", null, "Impacto social")))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "footer-copyright-container"
+  }, /*#__PURE__*/external_react_default().createElement("h1", null, "Copyright \xA9 2022 Unity Technologies"), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "copyright-list"
+  }, /*#__PURE__*/external_react_default().createElement("p", null, "Informaci\xF3n legal"), /*#__PURE__*/external_react_default().createElement("p", null, "Pol\xEDtica de privacidad"), /*#__PURE__*/external_react_default().createElement("p", null, "Cookies"), /*#__PURE__*/external_react_default().createElement("p", null, "No quiero que se venda mi informaci\xF3n personal"), /*#__PURE__*/external_react_default().createElement("p", null, "Configuraci\xF3n de cookies"))), /*#__PURE__*/external_react_default().createElement("div", {
+    className: "footer-last-container"
+  }, "\"Unity\", los logotipos de Unity y otras marcas comerciales de Unity son marcas comerciales o marcas registradas de Unity Technologies o sus afiliadas en Estados Unidos y el resto del mundo (", /*#__PURE__*/external_react_default().createElement("span", null, "m\xE1s informaci\xF3n aqu\xED"), "). Los dem\xE1s nombres o marcas son marcas comerciales de sus respectivos propietarios.")));
+};
+
+/* harmony default export */ const src_Footer = (Footer_Footer);
 ;// CONCATENATED MODULE: ./src/App.jsx
+
+
+
+
+
+
 
 
 
@@ -395,7 +822,7 @@ var App = function App() {
       height: '100vh',
       overflowX: 'hidden'
     }
-  }, /*#__PURE__*/external_react_default().createElement(src_Floater, null), /*#__PURE__*/external_react_default().createElement(src_TitleBar, null), /*#__PURE__*/external_react_default().createElement(src_IntroContainer, null), /*#__PURE__*/external_react_default().createElement(src_SquareContainer, null), /*#__PURE__*/external_react_default().createElement(src_GrayContainer, null), /*#__PURE__*/external_react_default().createElement(src_ProductosDestacados, null), /*#__PURE__*/external_react_default().createElement(src_Necesitas, null));
+  }, /*#__PURE__*/external_react_default().createElement(src_Floater, null), /*#__PURE__*/external_react_default().createElement(src_TitleBar, null), /*#__PURE__*/external_react_default().createElement(src_IntroContainer, null), /*#__PURE__*/external_react_default().createElement(src_SquareContainer, null), /*#__PURE__*/external_react_default().createElement(src_GrayContainer, null), /*#__PURE__*/external_react_default().createElement(src_ProductosDestacados, null), /*#__PURE__*/external_react_default().createElement(src_Necesitas, null), /*#__PURE__*/external_react_default().createElement(src_LoUltimo, null), /*#__PURE__*/external_react_default().createElement(src_MadeWithUnity, null), /*#__PURE__*/external_react_default().createElement(src_Contratamos, null), /*#__PURE__*/external_react_default().createElement(src_Logos, null), /*#__PURE__*/external_react_default().createElement(src_Contactanos, null), /*#__PURE__*/external_react_default().createElement(src_Footer, null));
 };
 
 /* harmony default export */ const src_App = (App);

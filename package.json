@@ -9,7 +9,7 @@
     "lint": "eslint src/**",
     "build-server": "webpack --config webpack.server.js",
     "dev-server": "node ./server/bundle.jsx",
-    "all": "npm run build && npm run build-server && npm run dev-server"
+    "all": "npm run build-server && npm run dev-server"
   },
   "repository": {
     "type": "git",
