@@ -1,9 +1,9 @@
 # Proyecto1_Pagina_web
  Pagina web pixel perfect.
 ## Contenido
-- [Herramientas](https://github.com/JuanDiegoAvila/Proyecto1_Pagina_web/edit/main/README.md#herramientas)
-- [Scripts](https://github.com/JuanDiegoAvila/Proyecto1_Pagina_web/edit/main/README.md#scripts)
-- [Referencia](https://github.com/JuanDiegoAvila/Proyecto1_Pagina_web/edit/main/README.md#referencia)
+- [Herramientas](#herramientas)
+- [Scripts](#scripts)
+- [Referencia](#referencia)
 
 ## Herramientas
 - [React](https://es.reactjs.org) :electron:
